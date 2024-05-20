@@ -1,35 +1,26 @@
 const Jumbotron = () => {
   return (
-    <section className="jumbotron bg-slate-900 text-slate-200">
-      <div className="container px-10 mx-auto md:flex md:flex-row-reverse md:justify-between md:items-center md:gap-7 py-20 md:py-32">
-        <div className="photo mb-3 md:mb-0">
+    <section className="jumbotron bg-zinc-800 text-slate-200 overflow-hidden">
+      <div className="container min-h-screen px-10 xl:px-28 mx-auto md:flex md:flex-row-reverse md:justify-between md:items-center md:gap-7">
+        <div className="photo pt-20 md:pt-0 mb-3 md:mb-0 animate__animated animate__fadeInRight">
           <img
-            className="w-60 rounded-md shadow-md shadow-white shadow-op mx-auto hover:scale-105 transition duration-300"
+            className="h-64 md:h-80 object-cover rounded-full shadow-white shadow-op mx-auto hover:scale-105 hover:shadow-md hover:shadow-lime-300 transition duration-300 mb-10 md:mb-0"
             src="../../public/images/me.jpg"
             alt=""
           />
-          <div className="flex justify-center gap-3 text-lg md:text-xl mt-3">
-            <a href="https://www.instagram.com/adsmdr_/">
-              <i className="fa-brands fa-instagram hover:text-slate-400 transition duration-300 active:text-red-500"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/adam-samudera-659935253/">
-              <i className="fa-brands fa-linkedin hover:text-slate-400 transition duration-300 active:text-red-500"></i>
-            </a>
-            <a href="https://github.com/Pacifista00">
-              <i className="fa-brands fa-github hover:text-slate-400 transition duration-300 active:text-red-500"></i>
-            </a>
-          </div>
         </div>
-        <div className="title text-center md:text-start">
-          <h1 className="text-red-500 text-3xl md:text-6xl mb-2">
-            Adam Samudera
-          </h1>
-          <p className="md:w-5/6 text-xs md:text-base">
-            Saya adalah seorang Website Developer yang berdedikasi tinggi untuk
-            menjadi seorang Website Developer handal.
+        <div className="title text-center md:text-start font-semibold animate__animated animate__fadeInLeft">
+          <h2 className="text-base md:text-2xl">Halo, nama saya</h2>
+          <h1 className="text-3xl md:text-6xl lg:text-7xl">Adam Samudera</h1>
+          <h2 className="text-lg md:text-2xl lg:text-2xl mb-3">
+            Saya adalah seorang <span className="text-lime-500">Developer</span>
+          </h2>
+          <p className="md:w-5/6 text-xs md:text-md font-normal tracking-wide">
+            Menjelajahi Setiap Kode adalah petualangan bagi saya demi menjadi
+            seorang Developer Profesional.
           </p>
-          <button className="mt-4 py-1 px-6 bg-amber-500 hover:bg-amber-400 text-slate-200 hover:text-slate-600 rounded-tl-xl rounded-br-xl transition duration-300">
-            Lihat CV
+          <button className="mt-4 py-1 px-6 bg-lime-500 hover:bg-lime-600 hover:scale-105 text-slate-200 rounded-tl-xl rounded-br-xl transition duration-300">
+            <a href="#about">About Me</a>
           </button>
         </div>
       </div>
