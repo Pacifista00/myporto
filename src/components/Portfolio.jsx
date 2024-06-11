@@ -34,6 +34,7 @@ const Portfolio = () => {
                 className="mb-4 relative overflow-hidden rounded-lg group"
               >
                 <img
+                  onClick={() => triggerModal(item)}
                   src={item.main_image}
                   alt={item.name}
                   className="w-full h-auto group-hover:brightness-50 transition duration-300 group-hover:scale-105"

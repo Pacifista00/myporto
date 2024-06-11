@@ -52,67 +52,67 @@ const AboutMe = () => {
           <div>
             <img
               className="h-9 md:h-12 inline-block p-1"
-              src="../../public/images/logo/html.png"
+              src="./images/logo/html.png"
               alt=""
             />
             <img
               className="h-9 md:h-12 inline-block p-1"
-              src="../../public/images/logo/css.png"
+              src="./images/logo/css.png"
               alt=""
             />
             <img
               className="h-9 md:h-12 inline-block p-1"
-              src="../../public/images/logo/php.png"
+              src="./images/logo/php.png"
               alt=""
             />
             <img
               className="h-9 md:h-12 inline-block p-1"
-              src="../../public/images/logo/js.png"
+              src="./images/logo/js.png"
               alt=""
             />
             <img
               className="h-9 md:h-12 inline-block p-1"
-              src="../../public/images/logo/bootstrap.webp"
+              src="./images/logo/bootstrap.webp"
               alt=""
             />
             <img
               className="h-9 md:h-12 inline-block p-1"
-              src="../../public/images/logo/tailwind.webp"
+              src="./images/logo/tailwind.webp"
               alt=""
             />
             <img
               className="h-9 md:h-12 inline-block p-1"
-              src="../../public/images/logo/codeigniter.png"
+              src="./images/logo/codeigniter.png"
               alt=""
             />
             <img
               className="h-9 md:h-12 inline-block p-1"
-              src="../../public/images/logo/laravel.png"
+              src="./images/logo/laravel.png"
               alt=""
             />
             <img
               className="h-9 md:h-12 inline-block p-1"
-              src="../../public/images/logo/vue.png"
+              src="./images/logo/Vue.png"
               alt=""
             />
             <img
               className="h-9 md:h-12 inline-block p-1"
-              src="../../public/images/logo/reactjs.webp"
+              src="./images/logo/reactjs.webp"
               alt=""
             />
             <img
               className="h-9 md:h-12 inline-block p-1"
-              src="../../public/images/logo/mysql.png"
+              src="./images/logo/mysql.png"
               alt=""
             />
             <img
               className="h-9 md:h-12 inline-block p-1"
-              src="../../public/images/logo/git.png"
+              src="./images/logo/git.png"
               alt=""
             />
             <img
               className="h-9 md:h-12 inline-block p-1"
-              src="../../public/images/logo/postman.webp"
+              src="./images/logo/postman.webp"
               alt=""
             />
           </div>
