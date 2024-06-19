@@ -48,6 +48,23 @@ const PortfolioList = [
     ],
   },
   {
+    title: "VehicleOrder",
+    main_image: "./images/PageScreenshot/vehicleorder/1.png",
+    description:
+      "Vehicleorder adalah website peminjaman kendaraan dari suatu perusahaan tambang. Dalam website ini Admin dapat melakukan pengajuan kendaraan yang ingin dipinjam oleh karyawan dengan mengisi form yang nantinya bisa disetujui atau ditolak oleh Superior. Admin juga bertugas untuk konfirmasi tanggal servis kendaraan dan superior bisa memantaunya.",
+    tech_stack: ["Laravel", "Bootstrap", "MySQL"],
+    images: [
+      "./images/PageScreenshot/vehicleorder/1.png",
+      "./images/PageScreenshot/vehicleorder/2.png",
+    ],
+    repository: [
+      {
+        name: "Fullcode",
+        link: "https://github.com/Pacifista00/vehicleorder",
+      },
+    ],
+  },
+  {
     title: "KTP Manager",
     main_image: "./images/PageScreenshot/ktpmanager/1.png",
     description:
@@ -95,23 +112,6 @@ const PortfolioList = [
       {
         name: "Fullcode",
         link: "https://github.com/Pacifista00/gamefinder",
-      },
-    ],
-  },
-  {
-    title: "VehicleOrder",
-    main_image: "./images/PageScreenshot/vehicleorder/1.jpeg",
-    description:
-      "Vehicleorder adalah website peminjaman kendaraan dari suatu perusahaan tambang. Dalam website ini Admin dapat melakukan pengajuan kendaraan yang ingin dipinjam oleh karyawan dengan mengisi form yang nantinya bisa disetujui atau ditolak oleh Superior. Admin juga bertugas untuk konfirmasi tanggal servis kendaraan dan superior bisa memantaunya.",
-    tech_stack: ["Laravel", "Bootstrap", "MySQL"],
-    images: [
-      "./images/PageScreenshot/vehicleorder/1.jpeg",
-      "./images/PageScreenshot/vehicleorder/2.jpeg",
-    ],
-    repository: [
-      {
-        name: "Fullcode",
-        link: "https://github.com/Pacifista00/vehicleorder",
       },
     ],
   },
