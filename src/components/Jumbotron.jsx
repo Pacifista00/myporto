@@ -31,7 +31,7 @@ const Jumbotron = () => {
               seorang Developer Profesional.
             </p>
             <button className="mt-4 py-1 px-6 bg-lime-500 hover:bg-lime-600 hover:scale-105 text-slate-200 rounded-tl-xl rounded-br-xl transition duration-300">
-              <a href="#about">About Me</a>
+              <a href="#about">Tentang Saya</a>
             </button>
           </div>
         </div>

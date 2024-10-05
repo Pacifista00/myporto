@@ -1,5 +1,11 @@
 const Certificate = [
   {
+    name: "Web Developer Internship",
+    publisher: "Zona Media Group",
+    logo_path: "./Certificates/logo/zona.png",
+    certificate: "./Certificates/certificate/zona.pdf",
+  },
+  {
     name: "SiM-K Full-Stack Developer",
     publisher: "Harisenin.com",
     logo_path: "./Certificates/logo/rise.png",

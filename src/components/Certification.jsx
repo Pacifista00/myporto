@@ -10,13 +10,13 @@ const Certification = () => {
           className="text-3xl font-semibold text-lime-500"
           data-aos="fade-left"
         >
-          CERTIFICATION
+          SERTIFIKAT
         </h1>
         <p className="text-xs md:text-sm" data-aos="fade-left">
           Beberapa sertifikat yanng saya dapatkan melalui suatu event.
         </p>
         <ul
-          className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-5 mt-8 text-center"
+          className="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-5 mt-8 text-center"
           data-aos="fade-up"
         >
           {data.map((item, index) => (

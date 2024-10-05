@@ -14,7 +14,7 @@ const AboutMe = () => {
           />
           <div className="flex-1" data-aos="fade-left">
             <h1 className="text-3xl mb-1 font-semibold text-lime-500">
-              ABOUT ME
+              TENTANG SAYA
             </h1>
             <p className="text-justify text-sm">
               Saya adalah lulusan D3 Teknik Komputer dari Politeknik Harapan
@@ -23,6 +23,11 @@ const AboutMe = () => {
               bahasa pemrograman dan framework beragam. Saya siap membantu dalam
               merancang dan mengembangkan proyek website dengan keahlian teknis
               terbaik yang saya miliki.
+            </p>
+            <h4 className="font-semibold  mt-2">PENGALAMAN</h4>
+            <p>Web Developer Internship</p>
+            <p className="text-sm">
+              PT Zona Media Indonesia(Juni 2024-September 2024)
             </p>
             <div className="flex gap-3 text-2xl my-2 text-slate-200">
               <a href="https://www.instagram.com/adsmdr_/">
@@ -38,7 +43,7 @@ const AboutMe = () => {
                 <i className="fa-regular p-2 rounded-full bg-lime-500 cursor-pointer hover:bg-lime-400 transition duration-300 fa-envelope"></i>
               </a>
             </div>
-            <a href="./CV/CV_Adam Samudera.pdf">
+            <a href="./CV/CV_AdamSamudera.pdf">
               <button className="mt-2 py-2 px-7 bg-lime-500 hover:bg-lime-400 hover:scale-105 text-slate-200 rounded-tl-xl rounded-br-xl transition duration-300">
                 Lihat CV
               </button>

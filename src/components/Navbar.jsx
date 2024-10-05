@@ -4,13 +4,13 @@ const Navbar = () => {
       <div className="container mx-auto animate__animated animate__fadeInDown ">
         <ul className="mx-auto flex justify-center gap-4 md:gap-10 ">
           <li className="hover:text-lime-300 cursor-pointer transition duration-500">
-            <a href="#about">About Me</a>
+            <a href="#about">TENTANG</a>
           </li>
           <li className="hover:text-lime-300 cursor-pointer transition duration-500">
-            <a href="#portfolio">Portfolio</a>
+            <a href="#portfolio">PORTOFOLIO</a>
           </li>
           <li className="hover:text-lime-300 cursor-pointer transition duration-500">
-            <a href="#certification">Certification</a>
+            <a href="#certification">SERTIFIKAT</a>
           </li>
         </ul>
       </div>

@@ -18,7 +18,7 @@ const Portfolio = () => {
           className="text-3xl font-semibold text-lime-500"
           data-aos="fade-right"
         >
-          PORTFOLIO
+          PORTOFOLIO
         </h1>
         <p className="text-xs md:text-sm" data-aos="fade-right">
           Jelajahi beberapa projek yang saya buat.
