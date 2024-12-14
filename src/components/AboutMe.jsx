@@ -77,6 +77,11 @@ const AboutMe = () => {
             />
             <img
               className="h-9 md:h-12 inline-block p-1"
+              src="./images/logo/java.png"
+              alt=""
+            />
+            <img
+              className="h-9 md:h-12 inline-block p-1"
               src="./images/logo/bootstrap.webp"
               alt=""
             />
@@ -103,6 +108,11 @@ const AboutMe = () => {
             <img
               className="h-9 md:h-12 inline-block p-1"
               src="./images/logo/reactjs.webp"
+              alt=""
+            />
+            <img
+              className="h-9 md:h-12 inline-block p-1"
+              src="./images/logo/spring.png"
               alt=""
             />
             <img
