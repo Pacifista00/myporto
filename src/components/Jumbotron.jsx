@@ -3,7 +3,7 @@ import { ReactTyped } from "react-typed";
 const Jumbotron = () => {
   return (
     <section className="jumbotron bg-zinc-800 text-slate-200">
-      <div className="container min-h-screen flex justify-center items-center">
+      <div className="w-full min-h-screen flex justify-center items-center overflow-x-hidden">
         <div className="px-10 xl:px-28 mx-auto md:flex md:flex-row-reverse md:justify-between md:items-center md:gap-7">
           <div className="photo mb-3 md:mb-0 animate__animated animate__fadeInRight">
             <img
