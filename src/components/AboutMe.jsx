@@ -25,6 +25,10 @@ const AboutMe = () => {
               terbaik yang saya miliki.
             </p>
             <h4 className="font-semibold  mt-2">PENGALAMAN</h4>
+            <p>Programmer</p>
+            <p className="text-sm mb-2">
+              DOKTORTJ Digital Institute(Juni 2025-Sekarang)
+            </p>
             <p>Web Developer Internship</p>
             <p className="text-sm">
               PT Zona Media Indonesia(Juni 2024-September 2024)
