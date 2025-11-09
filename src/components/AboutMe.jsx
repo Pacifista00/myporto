@@ -47,7 +47,7 @@ const AboutMe = () => {
                 <i className="fa-regular p-2 rounded-full bg-lime-500 cursor-pointer hover:bg-lime-400 transition duration-300 fa-envelope"></i>
               </a>
             </div>
-            <a href="#">
+            <a href="/CV/newcv.pdf">
               <button className="mt-2 py-2 px-7 bg-lime-500 hover:bg-lime-400 hover:scale-105 text-slate-200 rounded-tl-xl rounded-br-xl transition duration-300">
                 Lihat CV
               </button>
